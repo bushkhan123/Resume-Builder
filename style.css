@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #0e0d0d, #b69983); */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Changed from height to min-height */
+    /* animation: backgroundAnimation 15s ease-in-out infinite; */
+}
+label{
+    display: block;
+    margin-bottom: 0.07em;
+    font-weight: bold;
+    color: #c0829e;
+    font: size 1.1em; ;
+}
+
+
+
+.hidden{
+    display: none;
+}
+#resumePage img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50px;
+    display: block;
+    margin:auto;
+    border: 5px solid rgb(37, 240, 240);
+
+}
+#resumePage h1{
+    text-align: center;
+    color: #9b637c;
+}
